@@ -8,6 +8,7 @@ public class ScriptAntonio : MonoBehaviour
     void Start()
     {
         Debug.Log("Hola soy Antonio");
+        Debug.Log("Cambio en la ramaAntonio");
     }
 
     // Update is called once per frame
