@@ -13,6 +13,7 @@ public class Hola : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //Esto es nuevo cambio
+        int a = 0;
     }
 }
