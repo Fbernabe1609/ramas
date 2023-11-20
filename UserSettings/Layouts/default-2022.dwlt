@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43
-    width: 1920
-    height: 1037
+    x: 1920
+    y: 194
+    width: 1280
+    height: 981
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Git for Unity
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 987
+    width: 1280
+    height: 931
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 51
+  controlID: 54
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,22 +59,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1464
+    x: 976
     y: 0
-    width: 456
-    height: 987
-  m_MinSize: {x: 101, y: 121}
+    width: 304
+    height: 931
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 12}
-  m_Selected: 1
+  - {fileID: 16}
+  m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -93,13 +92,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 265
-    height: 584
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+    width: 177
+    height: 113
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 18}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -112,24 +111,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 584
-    width: 1464
-    height: 403
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 16}
+    y: 113
+    width: 976
+    height: 818
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 21}
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 2
+  - {fileID: 15}
+  - {fileID: 20}
+  - {fileID: 12}
+  m_Selected: 2
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,8 +149,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 1037
+    width: 1280
+    height: 981
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -175,7 +174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1280
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -196,8 +195,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1017
-    width: 1920
+    y: 961
+    width: 1280
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -220,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1464
-    height: 987
+    width: 976
+    height: 931
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 52
+  controlID: 55
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1464
-    height: 584
+    width: 976
+    height: 113
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 45
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,18 +265,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 265
+    x: 177
     y: 0
-    width: 1199
-    height: 584
+    width: 799
+    height: 113
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 18}
   m_Panes:
+  - {fileID: 18}
   - {fileID: 19}
-  - {fileID: 20}
-  - {fileID: 15}
   - {fileID: 14}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
@@ -300,10 +299,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1464
-    y: 73
-    width: 455
-    height: 966
+    x: 1920
+    y: 337
+    width: 975
+    height: 797
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -314,7 +313,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: -1
+  progressMessageClearTime: 318.3559556
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
@@ -322,13 +321,13 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
-  changeTab: 1
-  activeTab: 1
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
     lastCheckUserChangedEvent:
-      updatedTimeString: 2023-11-13T12:10:16.441+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 8
   branchesView:
     treeLocals:
@@ -411,25 +410,898 @@ MonoBehaviour:
     currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
-    currentBranch: '[unknown]'
+    currentBranch: master
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys: []
         values: []
       folders:
-        keys: []
-        values: []
+        keys:
+        - .git_dst
+        - .git_dst\hooks
+        - .git_dst\info
+        - .git_dst\objects
+        - .git_dst\objects\pack
+        - .git_dst\refs
+        - .git_dst\refs\heads
+        - .git_dst\refs\remotes
+        - .git_dst\refs\remotes\origin
+        values:
+        - path: .git_dst
+          label: .git_dst
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: .git_dst\hooks
+          label: hooks
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: .git_dst\info
+          label: info
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: .git_dst\objects
+          label: objects
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: .git_dst\objects\pack
+          label: pack
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: .git_dst\refs
+          label: refs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: .git_dst\refs\heads
+          label: heads
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: .git_dst\refs\remotes
+          label: remotes
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: .git_dst\refs\remotes\origin
+          label: origin
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
       title: 
-      pathSeparator: /
+      pathSeparator: \
       displayRootNode: 0
       isSelectable: 1
       isCheckable: 1
       isUsingGlobalSelection: 1
-      nodes: []
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .git_dst
+        label: .git_dst
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .git_dst\config
+        label: config
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\config
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\config
+          projectPath: .git_dst\config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\description
+        label: description
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\description
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\description
+          projectPath: .git_dst\description
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\HEAD
+        label: HEAD
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\HEAD
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\HEAD
+          projectPath: .git_dst\HEAD
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks
+        label: hooks
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .git_dst\hooks\applypatch-msg.sample
+        label: applypatch-msg.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\applypatch-msg.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\applypatch-msg.sample
+          projectPath: .git_dst\hooks\applypatch-msg.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\commit-msg.sample
+        label: commit-msg.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\commit-msg.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\commit-msg.sample
+          projectPath: .git_dst\hooks\commit-msg.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\fsmonitor-watchman.sample
+        label: fsmonitor-watchman.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\fsmonitor-watchman.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\fsmonitor-watchman.sample
+          projectPath: .git_dst\hooks\fsmonitor-watchman.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\post-checkout
+        label: post-checkout
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\post-checkout
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\post-checkout
+          projectPath: .git_dst\hooks\post-checkout
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\post-commit
+        label: post-commit
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\post-commit
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\post-commit
+          projectPath: .git_dst\hooks\post-commit
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\post-merge
+        label: post-merge
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\post-merge
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\post-merge
+          projectPath: .git_dst\hooks\post-merge
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\post-update.sample
+        label: post-update.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\post-update.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\post-update.sample
+          projectPath: .git_dst\hooks\post-update.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\pre-applypatch.sample
+        label: pre-applypatch.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\pre-applypatch.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-applypatch.sample
+          projectPath: .git_dst\hooks\pre-applypatch.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\pre-commit.sample
+        label: pre-commit.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\pre-commit.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-commit.sample
+          projectPath: .git_dst\hooks\pre-commit.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\pre-merge-commit.sample
+        label: pre-merge-commit.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\pre-merge-commit.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-merge-commit.sample
+          projectPath: .git_dst\hooks\pre-merge-commit.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\prepare-commit-msg.sample
+        label: prepare-commit-msg.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\prepare-commit-msg.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\prepare-commit-msg.sample
+          projectPath: .git_dst\hooks\prepare-commit-msg.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\pre-push
+        label: pre-push
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\pre-push
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-push
+          projectPath: .git_dst\hooks\pre-push
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\pre-push.sample
+        label: pre-push.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\pre-push.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-push.sample
+          projectPath: .git_dst\hooks\pre-push.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\pre-rebase.sample
+        label: pre-rebase.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\pre-rebase.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-rebase.sample
+          projectPath: .git_dst\hooks\pre-rebase.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\pre-receive.sample
+        label: pre-receive.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\pre-receive.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-receive.sample
+          projectPath: .git_dst\hooks\pre-receive.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\push-to-checkout.sample
+        label: push-to-checkout.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\push-to-checkout.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\push-to-checkout.sample
+          projectPath: .git_dst\hooks\push-to-checkout.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\sendemail-validate.sample
+        label: sendemail-validate.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\sendemail-validate.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\sendemail-validate.sample
+          projectPath: .git_dst\hooks\sendemail-validate.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\hooks\update.sample
+        label: update.sample
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\hooks\update.sample
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\update.sample
+          projectPath: .git_dst\hooks\update.sample
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\index
+        label: index
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\index
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\index
+          projectPath: .git_dst\index
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\info
+        label: info
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .git_dst\info\exclude
+        label: exclude
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\info\exclude
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\info\exclude
+          projectPath: .git_dst\info\exclude
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\objects
+        label: objects
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .git_dst\objects\pack
+        label: pack
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.idx
+        label: pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.idx
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.idx
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.idx
+          projectPath: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.idx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.pack
+        label: pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.pack
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.pack
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.pack
+          projectPath: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.pack
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.rev
+        label: pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.rev
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.rev
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.rev
+          projectPath: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.rev
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\packed-refs
+        label: packed-refs
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\packed-refs
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\packed-refs
+          projectPath: .git_dst\packed-refs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\refs
+        label: refs
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .git_dst\refs\heads
+        label: heads
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .git_dst\refs\heads\master
+        label: master
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\refs\heads\master
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\refs\heads\master
+          projectPath: .git_dst\refs\heads\master
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: .git_dst\refs\remotes
+        label: remotes
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .git_dst\refs\remotes\origin
+        label: origin
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .git_dst\refs\remotes\origin\HEAD
+        label: HEAD
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .git_dst\refs\remotes\origin\HEAD
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\refs\remotes\origin\HEAD
+          projectPath: .git_dst\refs\remotes\origin\HEAD
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       selectedNode:
         path: 
         label: 
@@ -449,31 +1321,733 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: .git_dst\config
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\config
+      projectPath: .git_dst\config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\description
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\description
+      projectPath: .git_dst\description
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\HEAD
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\HEAD
+      projectPath: .git_dst\HEAD
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\applypatch-msg.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\applypatch-msg.sample
+      projectPath: .git_dst\hooks\applypatch-msg.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\commit-msg.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\commit-msg.sample
+      projectPath: .git_dst\hooks\commit-msg.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\fsmonitor-watchman.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\fsmonitor-watchman.sample
+      projectPath: .git_dst\hooks\fsmonitor-watchman.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\post-checkout
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\post-checkout
+      projectPath: .git_dst\hooks\post-checkout
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\post-commit
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\post-commit
+      projectPath: .git_dst\hooks\post-commit
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\post-merge
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\post-merge
+      projectPath: .git_dst\hooks\post-merge
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\post-update.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\post-update.sample
+      projectPath: .git_dst\hooks\post-update.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\pre-applypatch.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-applypatch.sample
+      projectPath: .git_dst\hooks\pre-applypatch.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\pre-commit.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-commit.sample
+      projectPath: .git_dst\hooks\pre-commit.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\pre-merge-commit.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-merge-commit.sample
+      projectPath: .git_dst\hooks\pre-merge-commit.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\prepare-commit-msg.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\prepare-commit-msg.sample
+      projectPath: .git_dst\hooks\prepare-commit-msg.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\pre-push
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-push
+      projectPath: .git_dst\hooks\pre-push
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\pre-push.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-push.sample
+      projectPath: .git_dst\hooks\pre-push.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\pre-rebase.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-rebase.sample
+      projectPath: .git_dst\hooks\pre-rebase.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\pre-receive.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\pre-receive.sample
+      projectPath: .git_dst\hooks\pre-receive.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\push-to-checkout.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\push-to-checkout.sample
+      projectPath: .git_dst\hooks\push-to-checkout.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\sendemail-validate.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\sendemail-validate.sample
+      projectPath: .git_dst\hooks\sendemail-validate.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\hooks\update.sample
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\hooks\update.sample
+      projectPath: .git_dst\hooks\update.sample
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\index
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\index
+      projectPath: .git_dst\index
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\info\exclude
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\info\exclude
+      projectPath: .git_dst\info\exclude
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.idx
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.idx
+      projectPath: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.idx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.pack
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.pack
+      projectPath: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.pack
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.rev
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.rev
+      projectPath: .git_dst\objects\pack\pack-3392fe78d0285f182ca45abaa279f1faccc9afc0.rev
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\packed-refs
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\packed-refs
+      projectPath: .git_dst\packed-refs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\refs\heads\master
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\refs\heads\master
+      projectPath: .git_dst\refs\heads\master
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: .git_dst\refs\remotes\origin\HEAD
+      fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.git_dst\refs\remotes\origin\HEAD
+      projectPath: .git_dst\refs\remotes\origin\HEAD
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    changedFilesText: 29 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-11-20T10:08:31.167+01:00
+      cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-11-20T10:09:53.130+01:00
+      cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-11-20T10:08:31.833+01:00
+      cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
-    logEntries: []
+    logEntries:
+    - commitID: 5209ce3ccd8a9f8788eb11ec58e70ec4ff8e598b
+      mergeA: 
+      mergeB: 
+      authorName: Fbernabe1609
+      authorEmail: fbernabe160903@gmail.com
+      commitEmail: fbernabe160903@gmail.com
+      commitName: Fbernabe1609
+      summary: Primer commit Francisco
+      description: 
+      timeString: 2023-11-20T09:44:47.000+01:00
+      commitTimeString: 2023-11-20T09:44:47.000+01:00
+      changes:
+      - path: .idea\.idea.git\.idea\.gitignore
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.idea\.idea.git\.idea\.gitignore
+        projectPath: .idea\.idea.git\.idea\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .idea\.idea.git\.idea\encodings.xml
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.idea\.idea.git\.idea\encodings.xml
+        projectPath: .idea\.idea.git\.idea\encodings.xml
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .idea\.idea.git\.idea\indexLayout.xml
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.idea\.idea.git\.idea\indexLayout.xml
+        projectPath: .idea\.idea.git\.idea\indexLayout.xml
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .idea\.idea.git\.idea\vcs.xml
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.idea\.idea.git\.idea\vcs.xml
+        projectPath: .idea\.idea.git\.idea\vcs.xml
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Hola.cs
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Assets\Hola.cs
+        projectPath: Assets\Hola.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Hola.cs.meta
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Assets\Hola.cs.meta
+        projectPath: Assets\Hola.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes.meta
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Assets\Scenes.meta
+        projectPath: Assets\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Assets\Scenes\SampleScene.unity.meta
+        projectPath: Assets\Scenes\SampleScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\AudioManager.asset
+        projectPath: ProjectSettings\AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\ClusterInputManager.asset
+        projectPath: ProjectSettings\ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\DynamicsManager.asset
+        projectPath: ProjectSettings\DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\MemorySettings.asset
+        projectPath: ProjectSettings\MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\NavMeshAreas.asset
+        projectPath: ProjectSettings\NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NetworkManager.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\NetworkManager.asset
+        projectPath: ProjectSettings\NetworkManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\PackageManagerSettings.asset
+        projectPath: ProjectSettings\PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\VersionControlSettings.asset
+        projectPath: ProjectSettings\VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\XRSettings.asset
+        projectPath: ProjectSettings\XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.index
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\UserSettings\Search.index
+        projectPath: UserSettings\Search.index
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 5eff457c7c9b5ca2ed4b5538a4a2132756317e24
+      mergeA: 
+      mergeB: 
+      authorName: Fbernabe1609
+      authorEmail: fbernabe160903@gmail.com
+      commitEmail: fbernabe160903@gmail.com
+      commitName: Fbernabe1609
+      summary: Initial commit
+      description: 
+      timeString: 2023-11-20T09:40:59.000+01:00
+      commitTimeString: 2023-11-20T09:40:59.000+01:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-11-20T10:08:31.164+01:00
+      cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-11-20T10:08:31.141+01:00
+      cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
-      entries: []
+      entries:
+      - commitID: 5209ce3ccd8a9f8788eb11ec58e70ec4ff8e598b
+        mergeA: 
+        mergeB: 
+        authorName: Fbernabe1609
+        authorEmail: fbernabe160903@gmail.com
+        commitEmail: fbernabe160903@gmail.com
+        commitName: Fbernabe1609
+        summary: Primer commit Francisco
+        description: 
+        timeString: 2023-11-20T09:44:47.000+01:00
+        commitTimeString: 2023-11-20T09:44:47.000+01:00
+        changes:
+        - path: .idea\.idea.git\.idea\.gitignore
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.idea\.idea.git\.idea\.gitignore
+          projectPath: .idea\.idea.git\.idea\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .idea\.idea.git\.idea\encodings.xml
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.idea\.idea.git\.idea\encodings.xml
+          projectPath: .idea\.idea.git\.idea\encodings.xml
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .idea\.idea.git\.idea\indexLayout.xml
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.idea\.idea.git\.idea\indexLayout.xml
+          projectPath: .idea\.idea.git\.idea\indexLayout.xml
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .idea\.idea.git\.idea\vcs.xml
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.idea\.idea.git\.idea\vcs.xml
+          projectPath: .idea\.idea.git\.idea\vcs.xml
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Hola.cs
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Assets\Hola.cs
+          projectPath: Assets\Hola.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Hola.cs.meta
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Assets\Hola.cs.meta
+          projectPath: Assets\Hola.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes.meta
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Assets\Scenes.meta
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Assets\Scenes\SampleScene.unity.meta
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\MemorySettings.asset
+          projectPath: ProjectSettings\MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NetworkManager.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\NetworkManager.asset
+          projectPath: ProjectSettings\NetworkManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\VersionControlSettings.asset
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.index
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\UserSettings\Search.index
+          projectPath: UserSettings\Search.index
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.settings
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 5eff457c7c9b5ca2ed4b5538a4a2132756317e24
+        mergeA: 
+        mergeB: 
+        authorName: Fbernabe1609
+        authorEmail: fbernabe160903@gmail.com
+        commitEmail: fbernabe160903@gmail.com
+        commitName: Fbernabe1609
+        summary: Initial commit
+        description: 
+        timeString: 2023-11-20T09:40:59.000+01:00
+        commitTimeString: 2023-11-20T09:40:59.000+01:00
+        changes:
+        - path: .gitattributes
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       statusAhead: 0
       selectedIndex: -1
     selectedEntry:
@@ -597,31 +2171,31 @@ MonoBehaviour:
       m_Text: Release Lock (forced)
       m_Image: {fileID: 0}
       m_Tooltip: 
-  hasRemote: 0
-  currentRemoteName: 
-  currentBranch: 
-  currentRemoteUrl: No remote configured
-  statusAhead: 0
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: master
+  currentRemoteUrl: https://github.com/Fbernabe1609/ramas.git
+  statusAhead: 1
   statusBehind: 0
-  hasItemsToCommit: 0
-  isTrackingRemoteBranch: 0
+  hasItemsToCommit: 1
+  isTrackingRemoteBranch: 1
   currentBranchContent:
-    m_Text: 
+    m_Text: master
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
-    m_Text: No remote configured
+    m_Text: https://github.com/Fbernabe1609/ramas.git
     m_Image: {fileID: 0}
-    m_Tooltip: Add a remote in the Settings tab
+    m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 
-    cacheType: 0
+    updatedTimeString: 2023-11-20T10:08:31.167+01:00
+    cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 
-    cacheType: 0
+    updatedTimeString: 2023-11-20T10:09:53.152+01:00
+    cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 
-    cacheType: 0
+    updatedTimeString: 2023-11-20T10:09:53.130+01:00
+    cacheType: 6
   pullButtonContent:
     m_Text: Pull
     m_Image: {fileID: 0}
@@ -639,46 +2213,11 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: 
   repositoryProgressValue: 0
-  repositoryProgressMessage: 
-  appManagerProgressValue: 0
+  repositoryProgressMessage: Pushing
+  appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
 --- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6629f1bb292b749a18b5fff7994c8b19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 600, y: 350}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Unity Version Control
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 657
-    width: 1463
-    height: 382
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  mForceToOpen: 0
---- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -715,7 +2254,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID: 29416
---- !u!114 &15
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -785,7 +2324,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -805,10 +2344,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 657
-    width: 1463
-    height: 382
+    x: 1920
+    y: 337
+    width: 975
+    height: 797
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -840,14 +2379,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Fbernabe\Desktop\pruebas\git
+  m_LastProjectPath: C:\Users\usuario\Downloads\TareaGIT3-Grupo\ramas
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d8600000
-    m_LastClickedID: 24792
-    m_ExpandedIDs: 0000000000ca9a3b
+    m_SelectedIDs: 68630000
+    m_LastClickedID: 25448
+    m_ExpandedIDs: 000000006863000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -875,7 +2414,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000068630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -900,9 +2439,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: b2630000
+    m_LastClickedInstanceID: 25522
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000746f00001c6c0000ce6a0000f46a0000ec62000008630000d8620000046300007666000044680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -931,7 +2470,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -951,10 +2490,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1464
-    y: 73
-    width: 455
-    height: 966
+    x: 2896
+    y: 224
+    width: 303
+    height: 910
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -978,7 +2517,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -998,10 +2537,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 19
-    width: 264
-    height: 563
+    x: 1920
+    y: 224
+    width: 176
+    height: 92
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1015,9 +2554,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c2e4ffff
+      m_SelectedIDs: b2630000
       m_LastClickedID: 0
-      m_ExpandedIDs: f4faffff
+      m_ExpandedIDs: 02fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1041,7 +2580,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1061,10 +2600,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 265
-    y: 73
-    width: 1197
-    height: 563
+    x: 2097
+    y: 224
+    width: 797
+    height: 92
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1093,7 +2632,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: -141, y: -206}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 114}
       snapCorner: 3
       id: unity-grid-and-snap-toolbar
       index: 1
@@ -1132,7 +2671,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 25}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: -25}
       snapCorner: 0
       id: unity-transform-toolbar
       index: 0
@@ -1410,9 +2949,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -4.1700134, y: 2.6699982, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -4.1700134, y: 2.6699982, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1462,9 +3001,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 3.089155
     speed: 2
-    m_Value: 10
+    m_Value: 3.089155
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1489,7 +3028,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &20
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1587,7 +3126,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &21
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1607,10 +3146,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 657
-    width: 1463
-    height: 382
+    x: 1920
+    y: 337
+    width: 975
+    height: 797
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
