@@ -1,0 +1,4 @@
+repository "git@iesayala@cloud"
+  path "/"
+    br "/main"
+    co "/main"
